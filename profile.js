@@ -148,7 +148,7 @@ let logoutbtn = document.getElementById("logout")
 logoutbtn.addEventListener("click", function()
 {
     localStorage.removeItem('currentShopper')
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
 })
 
 // Validation Functions
