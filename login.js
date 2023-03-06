@@ -42,13 +42,13 @@ loginform.addEventListener("submit", (e) =>
         const currentShopper = {...shopper}
         localStorage.setItem("currentShopper", JSON.stringify(currentShopper));
 
-        window.location.href = '/shop bundle/index.html'
+        window.location.href = 'shop.html'
     }
 })
 
 if(localStorage.getItem("currentShopper"))
 {
-    window.location.href = '/shop bundle/index.html'
+    window.location.href = 'shop.html'
 }
 
 function validateEmail(mail)

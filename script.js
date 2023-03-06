@@ -4,15 +4,15 @@ loginbtn = document.getElementById("login")
 
 signupbtn.addEventListener("click", () =>
 {
-    window.location.href = "/signup bundle/index.html"
+    window.location.href = "signup.html"
 })
 
 loginbtn.addEventListener("click", () =>
 {
-    window.location.href = "/login bundle/index.html"
+    window.location.href = "login.html"
 })
 
 if(localStorage.getItem('currentShopper'))
 {
-    window.location.href = '/shop bundle/index.html'
+    window.location.href = 'shop.html'
 }

@@ -4,7 +4,7 @@ const shoppers = JSON.parse(localStorage.getItem('shoppers')) || []
 // Redirect if already logged in
 if(localStorage.getItem('currentShopper'))
 {
-    window.location.href = '/shop bundle/index.html'
+    window.location.href = 'shop.html'
 }
 
 // Alert Div
