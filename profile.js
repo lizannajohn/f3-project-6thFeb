@@ -5,7 +5,7 @@ let alert = document.getElementById("alert")
 
 if(!currentShopper)
 {
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
 }
 
 let updatedetailsform = document.getElementById("updatedetails")
